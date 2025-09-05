@@ -7,13 +7,13 @@ const ContactPage = () => {
       <section className='relative overflow-hidden flex flex-col items-center justify-center text-center py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-8 bg-gradient-to-br from-emerald-500/10 via-green-500/5 to-teal-500/10 dark:from-emerald-900/30 dark:via-green-900/20 dark:to-teal-900/30'>
         <div className='absolute inset-0 bg-grid-pattern opacity-5 dark:opacity-10'></div>
         <div className='relative z-10 max-w-4xl mx-auto w-full'>
-          <div className='inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6 shadow-lg'>
-            <span className='w-1.5 h-1.5 sm:w-2 sm:h-2 bg-emerald-500 dark:bg-emerald-400 rounded-full animate-pulse'></span>
+          <div className='inline-flex items-center gap-2 bg-emerald-50 dark:bg-fuchsia-900/30  text-fuchsia-300 px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6 shadow-lg'>
+            <span className='w-1.5 h-1.5 sm:w-2 sm:h-2 bg-emerald-500 dark:bg-fuchsia-400 rounded-full animate-pulse'></span>
             Get in Touch
           </div>
           <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 leading-tight'>
             Contact{' '}
-            <span className='bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
+            <span className='bg-gradient-to-r from-fuchsia-400 via-pink-400 to-rose-400  bg-clip-text text-transparent'>
               FinSight AI
             </span>
           </h1>
@@ -24,7 +24,7 @@ const ContactPage = () => {
           <div className='mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-0'>
             <a
               href='mailto:support@FinSight-ai.com'
-              className='group relative overflow-hidden bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 hover:from-emerald-700 hover:via-green-600 hover:to-teal-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-200 transform hover:-translate-y-0.5'
+              className='group relative overflow-hidden bg-gradient-to-r from-fuchsia-400 via-pink-400 to-rose-400 hover:from-fuchsia-500 hover:via-pink-500 hover:to-rose-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold shadow-2xl hover:shadow-3xl transition-all duration-200 transform hover:-translate-y-0.5'
             >
               <span className='relative z-10 flex items-center justify-center gap-2'>
                 Send us an Email
@@ -34,7 +34,7 @@ const ContactPage = () => {
             </a>
             <a
               href='tel:+11234567890'
-              className='group border-2 border-emerald-500/20 dark:border-emerald-400/20 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm flex items-center justify-center gap-2'
+              className='group border-2 border-fuchsia-400/30 text-fuchsia-400 hover:bg-emerald-900/20 px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl font-semibold transition-all duration-200 backdrop-blur-sm flex items-center justify-center gap-2'
             >
               Call Us
               <span className='text-lg'>📞</span>
@@ -54,7 +54,7 @@ const ContactPage = () => {
             </div>
             <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 px-2 sm:px-0'>
               Multiple Ways to{' '}
-              <span className='text-emerald-600 dark:text-emerald-400'>
+              <span className='text-fuchsia-400'>
                 Connect
               </span>
             </h2>
@@ -68,7 +68,7 @@ const ContactPage = () => {
             <div className='group relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-6 sm:p-8 rounded-xl sm:rounded-2xl shadow-xl border border-gray-100/50 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-200 hover:-translate-y-1 text-center'>
               <div className='absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-green-500/5 rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200'></div>
               <div className='relative z-10'>
-                <div className='w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-emerald-500 via-green-500 to-teal-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg mb-4 sm:mb-6 mx-auto'>
+                <div className='w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-fuchsia-400 via-pink-400 to-rose-400 hover:from-fuchsia-500 hover:via-pink-500 hover:to-rose-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg mb-4 sm:mb-6 mx-auto'>
                   <span className='text-white text-lg sm:text-xl'>✉️</span>
                 </div>
                 <h3 className='text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-900 dark:text-gray-100'>
@@ -80,10 +80,10 @@ const ContactPage = () => {
                 </p>
                 <a
                   href='mailto:support@FinSight-ai.com'
-                  className='inline-flex items-center gap-2 text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 font-medium transition-colors duration-200 text-sm sm:text-base break-all sm:break-normal'
+                  className='inline-flex items-center gap-2 text-fuchsia-400 hover:text-fuchsia-500 font-medium transition-colors duration-200 text-sm sm:text-base break-all sm:break-normal'
                 >
                   <span className='hidden sm:inline'>
-                    support@FinSight-ai.com
+                    support@FinSight.com
                   </span>
                   <span className='sm:hidden'>Email Us</span>
                   <span className='text-sm'>→</span>
@@ -94,7 +94,7 @@ const ContactPage = () => {
             <div className='group relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-6 sm:p-8 rounded-xl sm:rounded-2xl shadow-xl border border-gray-100/50 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-200 hover:-translate-y-1 text-center'>
               <div className='absolute inset-0 bg-gradient-to-br from-green-500/5 to-teal-500/5 rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200'></div>
               <div className='relative z-10'>
-                <div className='w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-green-500 via-teal-500 to-emerald-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg mb-4 sm:mb-6 mx-auto'>
+                <div className='w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-fuchsia-400 via-pink-400 to-rose-400 hover:from-fuchsia-500 hover:via-pink-500 hover:to-rose-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg mb-4 sm:mb-6 mx-auto'>
                   <span className='text-white text-lg sm:text-xl'>📞</span>
                 </div>
                 <h3 className='text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-900 dark:text-gray-100'>
@@ -106,7 +106,7 @@ const ContactPage = () => {
                 </p>
                 <a
                   href='tel:+11234567890'
-                  className='inline-flex items-center gap-2 text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 font-medium transition-colors duration-200 text-sm sm:text-base'
+                  className='inline-flex items-center gap-2 text-fuchsia-400 hover:text-bg-fuchsia-500 font-medium transition-colors duration-200 text-sm sm:text-base'
                 >
                   +1 (123) 456-7890
                   <span className='text-sm'>→</span>
@@ -117,7 +117,7 @@ const ContactPage = () => {
             <div className='group relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-6 sm:p-8 rounded-xl sm:rounded-2xl shadow-xl border border-gray-100/50 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-200 hover:-translate-y-1 text-center sm:col-span-2 lg:col-span-1'>
               <div className='absolute inset-0 bg-gradient-to-br from-teal-500/5 to-emerald-500/5 rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200'></div>
               <div className='relative z-10'>
-                <div className='w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-teal-500 via-emerald-500 to-green-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg mb-4 sm:mb-6 mx-auto'>
+                <div className='w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-fuchsia-400 via-pink-400 to-rose-400 hover:from-fuchsia-500 hover:via-pink-500 hover:to-rose-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg mb-4 sm:mb-6 mx-auto'>
                   <span className='text-white text-lg sm:text-xl'>📍</span>
                 </div>
                 <h3 className='text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-900 dark:text-gray-100'>
@@ -127,10 +127,10 @@ const ContactPage = () => {
                   Visit our headquarters for in-person consultations and
                   partnership discussions.
                 </p>
-                <div className='text-emerald-600 dark:text-emerald-400 font-medium text-sm sm:text-base'>
-                  123 AI Innovation St
+                <div className='text-fuchsia-400 hover:text-bg-fuchsia-500 font-medium text-sm sm:text-base'>
+                  13A West Patimura St
                   <br />
-                  Tech City, USA
+                  East Java, Indonesia
                 </div>
               </div>
             </div>
@@ -142,13 +142,13 @@ const ContactPage = () => {
       <section className='py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 bg-gradient-to-br from-gray-50 via-white to-emerald-50 dark:from-gray-900 dark:via-gray-800 dark:to-emerald-900/20'>
         <div className='max-w-4xl mx-auto'>
           <div className='text-center mb-10 sm:mb-12 md:mb-16'>
-            <div className='inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 px-3 py-1 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6'>
-              <span className='w-1.5 h-1.5 bg-emerald-500 dark:bg-emerald-400 rounded-full'></span>
+            <div className='inline-flex items-center gap-2 bg-fuchsia-900/20 text-fuchsia-300 px-3 py-1 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6'>
+              <span className='w-1.5 h-1.5 bg-fuchsia-400 rounded-full'></span>
               Support Information
             </div>
             <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 px-2 sm:px-0'>
               We&#39;re Here to{' '}
-              <span className='text-emerald-600 dark:text-emerald-400'>
+              <span className='text-fuchsia-400'>
                 Help
               </span>
             </h2>
@@ -188,7 +188,7 @@ const ContactPage = () => {
 
             <div className='bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-4 sm:p-6 rounded-xl sm:rounded-2xl shadow-lg border border-gray-100/50 dark:border-gray-700/50'>
               <div className='flex items-center gap-3 mb-4'>
-                <div className='w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-br from-green-500 via-teal-500 to-emerald-500 rounded-md sm:rounded-lg flex items-center justify-center shadow-lg'>
+                <div className='w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-br from-sky-400 via-cyan-400 to-blue-400 rounded-md sm:rounded-lg flex items-center justify-center shadow-lg'>
                   <span className='text-white text-xs sm:text-sm'>❓</span>
                 </div>
                 <h3 className='text-lg sm:text-xl font-bold text-gray-900 dark:text-gray-100'>

@@ -118,7 +118,7 @@ export default function Navbar() {
             {/* Mobile Menu Button */}
             <button
               onClick={toggleMobileMenu}
-              className='md:hidden p-1.5 sm:p-2 rounded-lg sm:rounded-xl text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-emerald-50/50 dark:hover:bg-emerald-900/20 transition-all duration-200 active:scale-95'
+              className='md:hidden p-1.5 sm:p-2 rounded-lg sm:rounded-xl text-gray-300 hover:text-fuchsia-400 bg-fuchsia-900/20 transition-all duration-200 active:scale-95'
               aria-label='Toggle mobile menu'
             >
               <svg
@@ -161,7 +161,7 @@ export default function Navbar() {
             {/* Mobile Navigation Links */}
             <Link
               href='/'
-              className='flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-700 dark:text-gray-300 hover:text-emerald-400 hover:bg-emerald-900/20 text-sm font-medium transition-all duration-200 active:scale-95'
+              className='flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-300 hover:text-fuchsia-400 hover:bg-fuchsia-900/20 text-sm font-medium transition-all duration-200 active:scale-95'
               onClick={closeMobileMenu}
             >
               <span className='text-base'>🏠</span>
@@ -169,7 +169,7 @@ export default function Navbar() {
             </Link>
             <Link
               href='/about'
-              className='flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-300 hover:text-emerald-400 hover:bg-emerald-900/20 text-sm font-medium transition-all duration-200 active:scale-95'
+              className='flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-300 hover:text-fuchsia-400 hover:bg-fuchsia-900/20 text-sm font-medium transition-all duration-200 active:scale-95'
               onClick={closeMobileMenu}
             >
               <span className='text-base'>ℹ️</span>
@@ -177,7 +177,7 @@ export default function Navbar() {
             </Link>
             <Link
               href='/contact'
-              className='flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-300 hover:text-emerald-400 hover:bg-emerald-900/20 text-sm font-medium transition-all duration-200 active:scale-95'
+              className='flex items-center gap-3 px-3 py-2.5 rounded-lg text-gray-300 hover:text-fuchsia-400 hover:bg-fuchsia-900/20 text-sm font-medium transition-all duration-200 active:scale-95'
               onClick={closeMobileMenu}
             >
               <span className='text-base'>📞</span>
@@ -211,7 +211,7 @@ export default function Navbar() {
               </SignedOut>
 
               <SignedIn>
-                <div className='flex items-center justify-center p-3 rounded-xl bg-gradient-to-r   from-emerald-900/20 backdrop-blur-sm border border-emerald-700/30'>
+                <div className='flex items-center justify-center p-3 rounded-xl bg-gradient-to-r from-pink-400/20 to-rose-400/20 backdrop-blur-sm border border-fuchsia-700/30'>
                   <UserButton
                     appearance={{
                       elements: {
