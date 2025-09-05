@@ -26,7 +26,7 @@ export default async function HomePage() {
                   alt={`${user.firstName}&#39;s profile`}
                   className='w-16 h-16 sm:w-20 sm:h-20 rounded-2xl border-2 border-white dark:border-gray-600 shadow-lg'
                 />
-                <div className='absolute -bottom-1 -right-1 w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-green-400 to-green-500 rounded-full border-2 border-white dark:border-gray-800 flex items-center justify-center'>
+                <div className='absolute -bottom-1 -right-1 w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-fuchsia-400 via-pink-400 to-rose-400 rounded-full border-2 border-white dark:border-gray-800 flex items-center justify-center'>
                   <span className='text-white text-xs'>✓</span>
                 </div>
               </div>
@@ -34,7 +34,7 @@ export default async function HomePage() {
               {/* User Details */}
               <div className='flex-1 text-center sm:text-left'>
                 <div className='flex flex-col sm:flex-row items-center sm:items-start justify-center sm:justify-start gap-2 sm:gap-3 mb-3'>
-                  <div className='w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-emerald-500 via-green-500 to-teal-500 rounded-xl flex items-center justify-center shadow-lg'>
+                  <div className='w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-fuchsia-400 via-pink-400 to-rose-400 rounded-xl flex items-center justify-center shadow-lg'>
                     <span className='text-white text-sm sm:text-lg'>👋</span>
                   </div>
                   <h2 className='text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-gray-100'>
